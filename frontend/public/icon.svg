@@ -1,0 +1,24 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="200" height="200" fill="white" rx="40"/>
+  
+  <!-- Outer orbit ring -->
+  <circle cx="100" cy="100" r="70" fill="none" stroke="black" stroke-width="3" opacity="0.3"/>
+  
+  <!-- Middle orbit ring -->
+  <circle cx="100" cy="100" r="50" fill="none" stroke="black" stroke-width="3" opacity="0.5"/>
+  
+  <!-- Inner orbit ring -->
+  <circle cx="100" cy="100" r="30" fill="none" stroke="black" stroke-width="3" opacity="0.7"/>
+  
+  <!-- Center checkmark circle -->
+  <circle cx="100" cy="100" r="18" fill="black"/>
+  
+  <!-- Checkmark -->
+  <path d="M 92 100 L 98 106 L 110 92" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Task dots on orbits -->
+  <circle cx="100" cy="30" r="4" fill="black"/>
+  <circle cx="170" cy="100" r="4" fill="black"/>
+  <circle cx="135" cy="135" r="4" fill="black"/>
+</svg>
