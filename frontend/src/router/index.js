@@ -6,6 +6,7 @@ import NoteList from "@/pages/NoteList";
 import Settings from "@/pages/Settings";
 import Favorites from "@/pages/Favorites";
 import Account from "@/pages/Account";
+import Graph from "@/pages/Graph";
 
 const routes = createBrowserRouter([
     {
@@ -18,6 +19,10 @@ const routes = createBrowserRouter([
             {
                 path: "/",
                 Component: NoteList
+            },
+            {
+                path: "/graph",
+                Component: Graph
             },
             {
                 path: "/favorites",

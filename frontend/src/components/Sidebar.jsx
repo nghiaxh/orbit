@@ -1,5 +1,5 @@
 import { NavLink } from "react-router";
-import { Plus, Notebook, Star, Settings, CircleUserRound, LogOut } from "lucide-react";
+import { Plus, Notebook, Star, Settings, CircleUserRound, LogOut, Waypoints } from "lucide-react";
 
 function Sidebar() {
   return (
@@ -16,6 +16,12 @@ function Sidebar() {
           <NavLink to="/">
             <Notebook />
             All Notes
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/graph">
+            <Waypoints />
+            Graph
           </NavLink>
         </li>
         <li>
